@@ -50,7 +50,7 @@ const SolutionsGrid = () => {
           {solutions.map((solution) => (
             <div
               key={solution.number}
-              className="flex flex-col rounded-lg bg-card p-8 shadow-[0_1px_3px_rgba(0,0,0,0.1),0_1px_2px_rgba(0,0,0,0.06)]"
+              className="flex flex-col rounded-xl bg-card border border-border p-8 shadow-md hover:shadow-lg transition-shadow"
             >
               <div className="mb-8 flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-r from-primary to-[#8B5CF6] text-primary-foreground">
                 <span className="text-xl font-bold">{solution.number}</span>
